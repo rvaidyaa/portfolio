@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+    /*reset Firefox user agent styles*/
+    -moz-margin-before: 0px;
+    -moz-margin-after: 0px;
+    -moz-margin-start: 0px;
+    -moz-margin-end: 0px;
+    -moz-padding-before: 0px;
+    -moz-padding-after: 0px;
+    -moz-padding-start: 0px;
+    -moz-padding-end: 0px;
+    /*reset Internet Explorer user agent styles*/
+    -ms-margin-before: 0px;
+    -ms-margin-after: 0px;
+    -ms-margin-start: 0px;
+    -ms-margin-end: 0px;
+    -ms-padding-before: 0px;
+    -ms-padding-after: 0px;
+    -ms-padding-start: 0px;
+    -ms-padding-end: 0px;
+    /*reset Opera user agent styles*/
+    -o-margin-before: 0px;
+    -o-margin-after: 0px;
+    -o-margin-start: 0px;
+    -o-margin-end: 0px;
+    -o-padding-before: 0px;
+    -o-padding-after: 0px;
+    -o-padding-start: 0px;
+    -o-padding-end: 0px;
+}
+
+html {}
+
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+header span {
+    font-family: 'Crimson Text', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*    font-family: 'Kanit', sans-serif;*/
+    font-family: 'Lobster', cursive;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: lightblue;
+    padding: 15px;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav span {
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    color: black;
+}
+
+.main-image {
+    background: url(github-images/climbing.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    /*    display: inline-block;*/
+}
+
+.main-image h1 {
+    text-align: right;
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+section {
+    display: block;
+}
+
+section h2,
+footer {
+    color: black;
+    font-size: 1.4rem;
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
+    text-align: center;
+    background-color: lightblue;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 33px;
+    height: 95px;
+    line-height: 95px;
+    /* margin-top: 33px; */
+}
+
+.about-me img {
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 500px;
+    display: block;
+}
+
+section p {
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: center;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.about-me {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.my-skills {
+    background-color: #F4F3F5;
+    width: 100%;
+}
+
+.skills-img {
+    background-color: #F4F3F5;
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.skills-img img {
+    height: 100px;
+}
+
+section .my-contact {
+    background-color: #F4F3F5;
+}
+
+.my-contact ul li {
+    display: inline-block;
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+
+}
+@media only screen and (min-width: 720px) {
+    .logo {
+        display: inline-block;
+    }
+
+    nav ul {
+        display: inline-block;
+        width: 50%;
+        text-align: right;
+    }
+
+    section img {
+        float: right;
+        height: 500px;
+    }
+}
