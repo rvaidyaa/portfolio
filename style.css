@@ -116,7 +116,7 @@ nav span {
 
 .main-image h1 {
     text-align: right;
-    color: black;
+    color: white;
     font-size: 1.5rem;
     position: absolute;
     bottom: 1rem;
@@ -142,6 +142,10 @@ footer {
     /* margin-top: 33px; */
 }
 
+#about {
+    background-color: #F4F3F5;
+}
+
 .about-me img {
     background-size: cover;
     margin-left: auto;
@@ -155,7 +159,7 @@ section p {
     font-size: 20px;
     font-weight: bold;
     vertical-align: center;
-    margin-bottom: 15px;
+    /*    margin-bottom: 15px;*/
     padding: 15px;
 }
 
@@ -166,12 +170,13 @@ section p {
 }
 
 .my-skills {
-    background-color: #F4F3F5;
+    background-color: white;
     width: 100%;
 }
 
 .skills-img {
     background-color: #F4F3F5;
+    background-color: white;
     width: 100%;
     margin-bottom: 1rem;
     padding-left: 1rem;
@@ -183,6 +188,42 @@ section p {
 
 .skills-img img {
     height: 100px;
+}
+
+.highlights img {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 170px;
+    display: block;
+}
+
+section h3 {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.projects ul {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+}
+
+.projects ul li {
+    display: inline-block;
+    font-size: 16px;
+    padding: 3px;
+    border: 1px solid black;
+    margin: 1px;
+    background-color: lightblue;
+}
+
+.projects a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin
 }
 
 section .my-contact {
@@ -197,21 +238,47 @@ footer {
     margin-bottom: 0px;
 }
 
-
+@media only screen and (min-width: 320px) {
+    body {
+        color: purple;
+    }
 }
-@media only screen and (min-width: 720px) {
+
+
+/*iPhone landscape*/
+
+@media only screen and (min-width: 480px) {
+    body {
+        color: green;
+    }
+}
+
+
+/*ipad potrait*/
+
+@media only screen and (min-width: 768px) {
+    body {
+        color: red;
+    }
     .logo {
         display: inline-block;
     }
-
     nav ul {
         display: inline-block;
         width: 50%;
         text-align: right;
     }
-
     section img {
         float: right;
         height: 500px;
+    }
+}
+
+
+/*ipad lanscape / small laptop*/
+
+@media only screen and (min-width: 1024px) {
+    body {
+        color: blue;
     }
 }
