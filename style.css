@@ -102,6 +102,7 @@ nav span {
 .main-image {
     background: url(github-images/climbing.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100%;
     height: 500px;
     position: relative;
@@ -129,21 +130,29 @@ section {
 
 section h2,
 footer {
-    color: black;
-    font-size: 1.4rem;
+    color: #EEE;
+    font-size: 2.4rem;
     /* padding-top: 10px; */
     /* padding-bottom: 10px; */
     text-align: center;
-    background-color: lightblue;
+    background-color: cornflowerblue;
     font-family: 'Lobster', cursive;
-    margin-bottom: 33px;
     height: 95px;
     line-height: 95px;
+    margin-bottom: 70px;
     /* margin-top: 33px; */
 }
 
-#about {
+.about-section,
+.my-portfolio {
     background-color: #F4F3F5;
+}
+
+.about-me {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1000px;
 }
 
 .about-me img {
@@ -151,7 +160,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    height: 500px;
+    height: 350px;
     display: block;
 }
 
@@ -163,53 +172,45 @@ section p {
     padding: 15px;
 }
 
-.about-me {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
 
+}
 .my-skills {
     background-color: white;
     width: 100%;
 }
-
 .skills-img {
     background-color: #F4F3F5;
     background-color: white;
     width: 100%;
-    margin-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     text-align: center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
 }
-
 .skills-img img {
     height: 100px;
 }
-
 .highlights img {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    height: 170px;
     display: block;
+    height: 200px;
+    max-width: 1000px;
+    width: 90%;
 }
-
 section h3 {
     text-align: center;
     padding: 5px;
     font-size: 20px;
 }
-
 .projects ul {
     text-align: center;
     font-family: 'Lobster', cursive;
     padding: 10px;
+    padding-bottom: 30px;
 }
-
 .projects ul li {
     display: inline-block;
     font-size: 16px;
@@ -218,22 +219,23 @@ section h3 {
     margin: 1px;
     background-color: lightblue;
 }
-
 .projects a {
     text-decoration: none;
     color: black;
     font-size: 20px;
     margin
 }
-
+.projects p {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .my-contact ul li {
     display: inline-block;
 }
-
 footer {
     margin-bottom: 0px;
 }
-
 .button {
     text-decoration: none;
     padding-top: 5px;
@@ -246,85 +248,111 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
-
 .links {
     margin-left: auto;
     margin-right: auto;
     border-bottom: 5px solid cornflowerblue;
     margin-bottom: 10px;
 }
-
 @media only screen and (min-width: 320px) {
     body {
-        color: purple;
+        /*        color: purple;*/
     }
 }
-
 section .my-contact {
-    background-color: #F4F3F5;
+    background-color: white;
     display: block;
 }
-
 .my-contact ul {
     text-align: center;
 }
-
 .my-contact i {
     font-size: 50px;
     padding: 10px;
     margin-bottom: 25px;
 }
-
+.my-contact a {
+    text-decoration: none;
+    color: black;
+}
+.hightlights img {
+    /*    width: 1000px;*/
+}
 
 /*iPhone landscape*/
-
 @media only screen and (min-width: 480px) {
     body {
-        color: black;
+        /*        color: black;*/
+    }
+
+    .highlights img {
+        width: 80%;
+        height: 300px;
     }
 }
 
-
 /*ipad potrait*/
-
 @media only screen and (min-width: 768px) {
     body {
-        color: red;
+        /*        color: red;*/
     }
+
+    .highlights img {
+        width: 600px;
+        height: 300px;
+    }
+
     .logo {
         display: inline-block;
     }
+
     nav ul {
         display: inline-block;
         width: 50%;
         text-align: right;
     }
+
     section img {
         height: 500px;
     }
+
     .main-image h1 {
-        color: black;
+        color: white;
+        text-shadow: 1px;
     }
+
     .description {
-        width: 50%;
         margin-right: auto;
-        margin-left: auto;
+        margin-left: 25px;
+    }
+
+    .about-me img,
+    .photograph {
+        float: right;
+        margin-left: 50px;
+    }
+
+    .about-me p {
+        height: 400px;
     }
 }
-
-
-/*ipad lanscape / small laptop*/
-
 @media only screen and (min-width: 1024px) {
     body {
-        color: blue;
+        /*        color: blue;*/
     }
+
+    .highlights img {
+        width: 600px;
+        height: 300px;
+    }
+
     .main-image h1 {
         color: black;
     }
-    .description {
-        width: 33%;
-        margin-right: auto;
-        margin-left: auto;
+
+    .about-me img,
+    .photograph {
+        float: right;
+        margin-left: 100px;
     }
 }
