@@ -376,10 +376,6 @@ section .my-contact {
         height: 300px;
     }
 
-    .main-image h1 {
-        color: black;
-    }
-
     .about-me img,
     .photograph {
         float: right;
