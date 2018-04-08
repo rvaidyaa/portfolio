@@ -254,6 +254,9 @@ footer {
     border-bottom: 5px solid cornflowerblue;
     margin-bottom: 10px;
 }
+.links:last-child {
+    border-bottom: 0px;
+}
 section .my-contact {
     background-color: white;
     display: block;
