@@ -60,7 +60,7 @@ h4,
 h5,
 h6 {
     /*    font-family: 'Kanit', sans-serif;*/
-    font-family: 'Lobster', cursive;
+    font-family: 'Fahkwang', sans-serif;
 }
 
 nav {
@@ -94,7 +94,7 @@ nav li a {
 }
 
 nav span {
-    font-family: 'Lobster', cursive;
+    font-family: 'Fahkwang', sans-serif;
     font-size: 25px;
     color: black;
 }
@@ -136,7 +136,7 @@ footer {
     /* padding-bottom: 10px; */
     text-align: center;
     background-color: cornflowerblue;
-    font-family: 'Lobster', cursive;
+    font-family: 'Fahkwang', sans-serif;
     height: 95px;
     line-height: 95px;
     margin-bottom: 70px;
@@ -169,7 +169,8 @@ footer {
 }
 
 section p {
-    font-size: 20px;
+    font-family: 'Fahkwang', sans-serif;
+    font-size: 18px;
     font-weight: bold;
     vertical-align: center;
     /*    margin-bottom: 15px;*/
@@ -211,7 +212,7 @@ section h3 {
 }
 .projects ul {
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'Fahkwang', sans-serif;
     padding: 10px;
     padding-bottom: 30px;
 }
